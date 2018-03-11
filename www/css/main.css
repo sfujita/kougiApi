@@ -1,0 +1,16 @@
+/* This is a CSS file */
+/** 背景色を設定 */
+h2,h3{
+ background-color:#9cf;
+}
+
+/** 見出しを中央寄せ */
+h2 {
+  text-align: center;
+}
+
+/** フッターを左寄せ */
+h3 {
+  text-align: left;
+  margin-top:-500; 
+}

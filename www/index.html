@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>外部html取得</title>
+<script type="text/javascript"
+    src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <script src="lib/onsenui/js/onsenui.min.js"></script>
+<script src="js/main.js"></script>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script type="text/javascript" src="js/footerFixed.js"></script>
+</head>
+<body>
+    <h2>講義助手ブラウザ標準版</h2>
+    <br />
+    <button id="btnTest">テスト用</button>
+    <button id="btnMain">運用</button>
+    <!-- 
+    <a href="#" onclick="getKougi();">url取得</a>
+    -->
+    <div id="info"></div>
+    <div id="kougiMain"></div>
+    <div id="footer">
+    <h3>開発：アクシスソフト<br>
+    提供：PDBマーケティング(株)<br>
+    参照：<a href="http://p-db-m.com/kogi">http://p-db-m.com/kogi</a>
+    </h3>
+    </div>
+    
+    
+</body>
+</html>
