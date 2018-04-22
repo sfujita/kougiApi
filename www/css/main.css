@@ -14,3 +14,13 @@ h3 {
   text-align: left;
   margin-top:-500; 
 }
+
+/** 講義表示個所の文字サイズ */
+/** タイトル */
+#kougiMain title {
+    font-size: 40%;
+}
+/** デフォルト文字サイズ */
+#kougiMain div {
+    font-size: 80%;
+}
